@@ -9,11 +9,11 @@
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/jonsn0w/hyde.svg?style=social)](http://twitter.com/intent/tweet?text=Check%20out%20%40noahliechti%27s%20Minimal%20Viable%20Oracle%20%28MVO%29.%20A%20way%20to%20connect%20your%20Ethereum%20smart%20contract%20to%20any%20real%20world%20API%20using%20the%20oracle%20pattern%21&url=https://github.com/noahliechti/minimal-viable-oracle)
 [![Fork](https://img.shields.io/github/forks/noahliechti/minimal-viable-oracle?style=social)](https://github.com/noahliechti/minimal-viable-oracle/fork)
 
-![welcome.jpg(assets/welcome.jpg)
+![welcome.jpg](assets/welcome.jpg)
 
 Smart contracts cannot access off-chain data directly. This repository demonstrates how to connect Ethereum to any real world API using the oracle pattern.
 
-If you have built a smart contract before, you may already know how to query information like price feeds or random numbers into your contract. But how about external data that is not provided by the common oracle providers in the Web3 space? 
+If you have built a smart contract before, you may already know how to query information like price feeds or random numbers into your contract. But how about external data that is not provided by the common oracle providers in the Web3 space?
 
 In this tutorial we will create a set of contracts that will enable you to draw `n` random cards from a standard 52-card deck.
 
@@ -65,7 +65,7 @@ There are two reasons to use an oracle:
 
 ### Architecture
 
-![oracle-architecture.png](assets/oracle-architecture.png align="left")
+![oracle-architecture.png](assets/oracle-architecture.png)
 
 ### Smart Contracts
 
